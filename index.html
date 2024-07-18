@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,14 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
         }
+
         .button {
             padding: 15px 30px;
             font-size: 16px;
@@ -21,36 +24,17 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin-bottom: 20px;
         }
-        .button:hover {
-            background-color: #0056b3;
-        }
-    </style>
-    <title>plaTForm Yükle (PROD)</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .button {
-            padding: 15px 30px;
-            font-size: 16px;
-            color: white;
-            background-color: #007BFF;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+
         .button:hover {
             background-color: #0056b3;
         }
     </style>
 </head>
-<body>
-    <a href="itms-services://?action=download-manifest&amp;url=https://ymeksur.github.io/ipaYukle/plaTForm.plist" id="ctl00_MainContent_anchorDownPackage" class="btn btn-info btn-lg btn-block">plaTForm İndir</a>
-</body>
+
+<body> <a href="itms-services://?action=download-manifest&amp;url=https://ymeksur.github.io/ipaYukle/plaTForm.plist"
+        id="ctl00_MainContent_anchorDownPackage" class="btn btn-info btn-lg btn-block button">plaTForm İndir</a> <button
+        class="button">X</button> </body>
+
 </html>
